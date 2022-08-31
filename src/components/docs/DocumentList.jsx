@@ -140,8 +140,17 @@ const DocumentList = () => {
 
         });
     }
-    let i = fileData.length;
+
     const columns = [
+
+
+        {
+            title: "Time",
+            render: (text, rowKey) => {
+                {new Date().toLocaleString() }
+
+            }
+        },
 
         {
             title: "ID",
@@ -171,6 +180,7 @@ const DocumentList = () => {
             )
         },
 
+
         {
             title: "Action",
             render: (text, rowKey) => (
@@ -180,7 +190,7 @@ const DocumentList = () => {
                         DeleteIndividual(rowKey.ID, rowKey.FILENAME);
                     }}
                 >
-                    <i className="fa fa-trash-o m-r-5" style={{fontSize:"26px",color:"red"}} />
+                    <i className="fa fa-trash-o m-r-5" style={{ fontSize: "26px", color: "red" }} />
                 </a>
             ),
         },
