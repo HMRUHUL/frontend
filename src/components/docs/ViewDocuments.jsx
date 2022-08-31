@@ -315,6 +315,8 @@ const ViewDocuments = () => {
                     <tbody>
                       <tr>
                         <th>SN</th>
+                        <th>Date</th>
+
                         <th>Document</th>
                         <th>Download</th>
                         <th>Action</th>
@@ -327,6 +329,7 @@ const ViewDocuments = () => {
 
                         <tr>
                           <td>{index + 1}</td>
+                          <td>{row.DATENTIME}</td>
                           <td>{row.FILENAME}</td>
                           <td>
 

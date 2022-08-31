@@ -81,7 +81,11 @@ const Create_Document = () => {
 
   // submit for store vendor  data info
   const onSubmit = (data) => {
+    
+    const date = new Date().toLocaleString();
+    console.log(date);
     const formData = new FormData();
+     formData.append("datentime", date);
     formData.append("id", data.id);
     formData.append("name", data.name);
     console.log(data)
@@ -221,6 +225,11 @@ const Create_Document = () => {
 
   //table
   const columns = [
+    
+    {
+      title: "Time",
+      dataIndex:"DATENTIME"
+  },
 
 
     {

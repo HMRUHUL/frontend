@@ -146,13 +146,8 @@ const DocumentList = () => {
 
 
         {
-            title: "Time",
-            render: (text, rowKey) => (
-
-                <p>
-                    {new Date().toLocaleString()}
-                </p>
-            )
+            title: "Date",
+            dataIndex:"DATENTIME"
         },
 
         {
