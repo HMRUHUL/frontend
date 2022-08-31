@@ -140,16 +140,19 @@ const DocumentList = () => {
 
         });
     }
+    const date = new Date().toLocaleTimeString();
 
     const columns = [
 
 
         {
             title: "Time",
-            render: (text, rowKey) => {
-                {new Date().toLocaleString() }
+            render: (text, rowKey) => (
 
-            }
+                <p>
+                    {new Date().toLocaleString()}
+                </p>
+            )
         },
 
         {
