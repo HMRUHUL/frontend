@@ -120,7 +120,11 @@ const ViewDocuments = () => {
   };
   // submit for store vendor  data info
   const onSubmit = (data) => {
+    
+    const date = new Date().toLocaleString();
+    console.log(date);
     const formData = new FormData();
+     formData.append("datentime", date);
     formData.append("idp", useParam.id);
     formData.append("id", useParam.document_id);
     console.log(data)
