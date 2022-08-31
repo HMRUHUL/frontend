@@ -20,15 +20,14 @@ import "../../index.css";
 
 import {
   VendorInfoData
-} from "../docs/ApiCall";
+} from "./ApiCall";
 import "../docs/vendor.css";
-import FileUpload from "../File/FileUpload";
 import { Link } from "react-router-dom";
 
 import ViewDocuments from "./ViewDocuments";
 import Dashboard from "../MainPage/Main/Dashboard";
 
-const Create_Vendor = () => {
+const Create_Document = () => {
   const [DataLoader, setDataLoader] = useState(true);
   const [Vendor_data, SetVendorData] = useState([]);
   const [Vendor_Info, setVendorInfo] = useState([]);
@@ -647,4 +646,4 @@ const Create_Vendor = () => {
   );
 };
 
-export default Create_Vendor;
+export default Create_Document;

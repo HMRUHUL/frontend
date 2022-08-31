@@ -12,7 +12,8 @@ import "../antdstyle.css";
 import { itemRender, onShowSizeChange } from "../paginationfunction";
 import { useForm } from "react-hook-form";
 import ViewDocuments from "./ViewDocuments";
-import Create_Vendor from "./Create_Vendor";
+import Create_Vendor from "./Create_Document";
+import Create_Document from "./Create_Document";
 
 const Catlist = () => {
     useEffect(() => {
@@ -22,7 +23,7 @@ const Catlist = () => {
     return (
 
         <>
-        <Create_Vendor />
+        <Create_Document />
         </>
     )
 }

@@ -50,7 +50,7 @@ const Dashboard = ({ alldata9 }) => {
     <>
       <Helmet>
         <title>Dashboard - BBA Documents</title>
-        <meta name="description" content="BBA STORE" />
+        <meta name="description" content="BBA DOCUMENTS" />
       </Helmet>
       {/* Header */}
       <div className="page-wrapper">

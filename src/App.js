@@ -2,7 +2,7 @@ import './App.css';
 
 import React from "react";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Create_Vendor from './components/docs/Create_Vendor';
+import Create_Document from './components/docs/Create_Document';
 import Header from './components/initialpage/Sidebar/Header';
 import Sidebar from './components/initialpage/Sidebar/sidebar';
 import Dashboard from './components/MainPage/Main/Dashboard';
@@ -24,7 +24,7 @@ function App() {
         <Route path="/docs" element={<Dashboard />} />
 
 
-        <Route path="/docs/add" element={<Create_Vendor />} />
+        <Route path="/docs/add" element={<Create_Document />} />
         <Route path="/fileupload" element={<FileUpload />} />
         
         <Route path="/ViewDocuments/:id/:document_id" element={<ViewDocuments />}/>
