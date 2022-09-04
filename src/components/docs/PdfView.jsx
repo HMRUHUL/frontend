@@ -23,7 +23,6 @@ const PreviousPage=async()=>{
 
     return (
         <>
-            {console.log("render344")}
             <Helmet>
                 <title>Dashboard - BBA STORE</title>
                 <meta name="description" content="BBA STORE" />
