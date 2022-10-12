@@ -24,7 +24,7 @@ const PreviousPage=async()=>{
     return (
         <>
             <Helmet>
-                <title>Dashboard - BBA STORE</title>
+                <title>Dashboard - BBA DOCUMENTS</title>
                 <meta name="description" content="BBA STORE" />
             </Helmet>
             {/* Header */}

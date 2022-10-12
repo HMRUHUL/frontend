@@ -89,17 +89,9 @@
      formData.append("id", data.id);
      formData.append("name", data.name);
      console.log(data)
-     if (data.documents.length > 1) {
-       for (let i = 0; i < data.documents.length; i++) {
-         formData.append("documents", data.documents[i]);
-       }
- 
-     }
-     else {
-       formData.append("documents", data.documents[0]);
-     }
+     
      axios
-       .post("http://localhost:4123/documents/process_post", formData, {
+       .post("http://localhost:4123/documents/processcat_post", formData, {
          onUploadProgress: (data) => {
            //Set the progress value to show the progress bar
            console.log(data);

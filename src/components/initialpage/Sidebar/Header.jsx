@@ -12,7 +12,7 @@ function Header() {
     const Logout=()=>{
      
       localStorage.removeItem("LoginData");
-      Navigate("/vendor/login");
+      Navigate("/documents/login");
            
     }
     const location = useLocation();

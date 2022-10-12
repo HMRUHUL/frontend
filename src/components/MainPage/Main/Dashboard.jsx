@@ -102,7 +102,7 @@ const Dashboard = ({ alldata9 }) => {
               <div className="card dash-widget">
                 <div className="card-body">
 
-                  <Link to={'/docs/add'}>
+                  <Link to={'/docs/cat'}>
                     <span className="dash-widget-icon">
                       <i className="fa fa-diamond" />
                     </span>

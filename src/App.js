@@ -34,6 +34,8 @@ function App() {
         <Route path="/docs/cat" element={<Catlist />} />
 
         <Route path="/docs/list" element={<DocumentList />} />
+        {/* <Route path="/docs/list" element={<DocumentList />} /> */}
+        
         
             
      

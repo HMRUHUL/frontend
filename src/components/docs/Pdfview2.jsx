@@ -25,7 +25,7 @@ const Pdfview2 = () => {
         <>
             {console.log("render344")}
             <Helmet>
-                <title>Dashboard - BBA STORE</title>
+                <title>Dashboard - BBA DOCUMENTS</title>
                 <meta name="description" content="BBA STORE" />
             </Helmet>
             {/* Header */}

@@ -1368,7 +1368,7 @@ table.dataTable thead > tr > td.sorting {
   background: -moz-linear-gradient(left, #667eea 0%, #764ba2 100%);
   background: -webkit-linear-gradient(left, #667eea 0%, #764ba2 100%);
   background: -ms-linear-gradient(left, #667eea 0%, #764ba2 100%);
-  background: linear-gradient(to right, #667eea 0%, #764ba2 100%);
+  background: darkolivegreen;
   border-bottom: 1px solid transparent;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
   height: 60px;
@@ -1553,6 +1553,7 @@ table.dataTable thead > tr > td.sorting {
 .sidebar-inner {
   height: 100%;
   transition: all 0.2s ease-in-out 0s;
+  background: #213828;
 }
 .sidebar-menu {
   padding: 10px 0;
