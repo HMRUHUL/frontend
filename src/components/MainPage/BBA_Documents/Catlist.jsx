@@ -18,9 +18,7 @@
  import swal from "sweetalert";
  import "../../../index.css";
  
- import {
-   VendorInfoData
- } from "./ApiCall";
+ 
  import "../BBA_Documents/vendor.css";
  import { Link } from "react-router-dom";
  
